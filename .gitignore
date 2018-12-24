@@ -50,3 +50,21 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Releases
+Releases/
+
+# Runtime files
+*.log
+*.status
+configure
+*.in
+Makefile
+install-sh
+aclocal.m4
+autom4te.cache/
+compile
+depcomp
+missing
+.deps/
+eve
