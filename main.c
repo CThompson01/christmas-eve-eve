@@ -13,22 +13,23 @@ void main() {
 
 	// gets the day
 	int month = timeStructure.tm_mon;
-	int day = (timeStructure.tm_mday + prevDays[month]) + 6;
+	int date = timeStructure.tm_mday;
+	int day = ((date + prevDays[month]) + 6) % 366;
 	
-	if (day > 365)
-		day -= 365;
-
+	// Calculate the days until christmas
 	int daysTillChristmas = (365) - (day);
-	printf("Day: %d\n",day);
-	printf("Eve Amount: %d\n", daysTillChristmas);
+
 	createEve(daysTillChristmas);
 }
 
 void createEve(int tilChrist) {
-	char total[1470];
-	char eve[] = "eve ";
-	for (int x=0;x<(tilChrist*4);x++) {
-		total[x]=eve[x%4];
+	if (tilChrist < 1)
+		printf("Merry Christmas!!! :)");
+	else
+		printf("Christmas ");
+
+	for (int i=0;i<tilChrist;i++) {
+		printf("Eve ");
 	}
-	printf("Christmas %s\n", total);
+	printf("\n");
 }
