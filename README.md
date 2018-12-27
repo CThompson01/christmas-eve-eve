@@ -4,9 +4,7 @@ This project idea came from a famous scene from the popular show, Friends. In th
 
 For Example on December 22 it will print out
 ```
-Day: 362
-Eve Amount: 3
-Christmas eve eve eve
+Christmas Eve Eve Eve
 ```
 
 ## Getting Started
@@ -31,7 +29,7 @@ Follow [these instructions](https://docs.microsoft.com/en-us/cpp/build/walkthrou
 ### Installing
 
 Follow these instructions to unpackage and install releases found on our [release page](https://github.com/CThompson01/christmas-eve-eve/releases).
-[Latest Stable Release](https://github.com/CThompson01/christmas-eve-eve/releases/tag/v0.1-alpha)
+[Latest Stable Release](https://github.com/CThompson01/christmas-eve-eve/releases/tag/v0.1.1-alpha)
 
 <br>
 After downloading open a terminal
