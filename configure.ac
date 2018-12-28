@@ -1,4 +1,4 @@
-AC_INIT([christmas],[0.1.2],[cthompson10547@gmail.com])
+AC_INIT([christmas],[0.1.3],[cthompson10547@gmail.com])
 AC_MSG_NOTICE([Initializing automake])
 AM_INIT_AUTOMAKE
 AC_MSG_NOTICE([Checking for C compiler])
