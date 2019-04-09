@@ -84,7 +84,7 @@ And it's installed! Now anytime you open up your console, you can simply type "c
 * **Brandon Richards** - *Idea* - [bqrichards](https://github.com/bqrichards)
 * **Billie Thompson** - *README.md Template* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/CThompson01/christmas-eve-eve/graphs/contributors) who participated in this project.
 
 ## License
 
